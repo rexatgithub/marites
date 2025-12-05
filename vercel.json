@@ -1,0 +1,21 @@
+{
+  "rewrites": [
+    {
+      "source": "/webhooks/github",
+      "destination": "/api/github_webhook"
+    },
+    {
+      "source": "/webhooks/slack",
+      "destination": "/api/slack_webhook"
+    },
+    {
+      "source": "/health",
+      "destination": "/api/health"
+    },
+    {
+      "source": "/(.*)",
+      "destination": "/api/index"
+    }
+  ]
+}
+

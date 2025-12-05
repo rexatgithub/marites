@@ -1,0 +1,14 @@
+# Ignore files not needed for deployment
+venv/
+.venv/
+__pycache__/
+*.pyc
+.env
+.env.local
+.git/
+.pytest_cache/
+.coverage
+scripts/
+*.md
+!README.md
+
