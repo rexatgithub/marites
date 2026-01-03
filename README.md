@@ -28,8 +28,6 @@ PR Marites supports multiple users in the same organization! Team members can re
 - `status` - Check your registration status
 - `help` - Show available commands
 
-See [MULTI_USER_GUIDE.md](MULTI_USER_GUIDE.md) for details.
-
 ## Prerequisites
 
 1. **GitHub App**: Create a GitHub App with the following permissions:
